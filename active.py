@@ -65,14 +65,16 @@ if __name__ == "__main__":
             speak(results)
 
         elif 'open youtube' in query:
-            webbrowser.open("youtube.com")
+            webbrowser.open("https://youtube.com/")
 
         elif 'open google' in query:
-            webbrowser.open("google.com")
+            webbrowser.open("https://google.com/")
 
         elif 'open stackoverflow' in query:
-            webbrowser.open("stackoverflow.com")
+            webbrowser.open("https://stackoverflow.com/")
 
+        elif 'open Stack Exchange' in query:
+            webbrowser.open("https://stackexchange.com/")
 
         elif 'the time' in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")    
